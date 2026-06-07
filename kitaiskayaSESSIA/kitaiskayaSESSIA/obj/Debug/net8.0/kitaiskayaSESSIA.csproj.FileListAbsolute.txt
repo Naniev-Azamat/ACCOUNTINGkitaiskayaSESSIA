@@ -1,0 +1,9 @@
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.AssemblyInfoInputs.cache
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.AssemblyInfo.cs
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.csproj.CoreCompileInputs.cache
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.RazorAssemblyInfo.cache
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.RazorAssemblyInfo.cs
+C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.sourcelink.json
