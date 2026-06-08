@@ -1,4 +1,7 @@
+using kitaiskayaSESSIA.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSingleton<JsonDataContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
