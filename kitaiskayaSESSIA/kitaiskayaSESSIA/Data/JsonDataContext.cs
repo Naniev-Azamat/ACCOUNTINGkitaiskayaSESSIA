@@ -9,7 +9,7 @@ namespace kitaiskayaSESSIA.Data
     {
         private readonly string _usersPath;
         private readonly string _transactionsPath;
-        public object SyncRoot { get; } = new();
+
         public List<User> Users { get; }
         public List<Transaction> Transactions { get; }
 
@@ -22,15 +22,13 @@ namespace kitaiskayaSESSIA.Data
 
         public JsonDataContext(IConfiguration configuration, IWebHostEnvironment env)
         {
-            var dir = configuration["Storage:DataDirectory"] ?? "App_Data";
-            if (!Path.IsPathRooted(dir))
-            {
-                dir = Path.Combine(env.ContentRootPath, dir);
-            }
-            Directory.CreateDirectory(dir);
+            var folder = configuration["Storage:DataDirectory"] ?? "App_Data";
+            if (!Path.IsPathRooted(folder))
+                folder = Path.Combine(env.ContentRootPath, folder);
+            Directory.CreateDirectory(folder);
 
-            _usersPath = Path.Combine(dir, "users.json");
-            _transactionsPath = Path.Combine(dir, "transactions.json");
+            _usersPath = Path.Combine(folder, "users.json");
+            _transactionsPath = Path.Combine(folder, "transactions.json");
 
             Users = Load<User>(_usersPath);
             Transactions = Load<Transaction>(_transactionsPath);
@@ -46,7 +44,7 @@ namespace kitaiskayaSESSIA.Data
                 return new List<T>();
 
             var json = File.ReadAllText(path);
-            if (string.IsNullOrWhiteSpace(json))
+            if (json == "")
                 return new List<T>();
 
             return JsonSerializer.Deserialize<List<T>>(json, JsonOptions) ?? new List<T>();
