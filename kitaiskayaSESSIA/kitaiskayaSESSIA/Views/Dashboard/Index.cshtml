@@ -1,0 +1,175 @@
+﻿@using kitaiskayaSESSIA.ViewModels
+@model DashboardViewModel
+@{
+    ViewData["Title"] = "Панель";
+    var dateStr = Model.SelectedDate.ToString("yyyy-MM-dd");
+    var allTimeStr = Model.IsAllTime.ToString().ToLower();
+}
+
+<div class="page">
+    <h1 class="page-title">Финансовая панель</h1>
+    <p class="page-subtitle">
+        @(Model.IsDirector ? "Операции всех сотрудников" : "Ваши доходы и расходы")
+        · @(Model.IsAllTime ? "за всё время" : "за " + Model.SelectedDate.ToString("dd.MM.yyyy"))
+    </p>
+
+    @if (TempData["Error"] is string error)
+    {
+        <div class="flash flash-warn"><i class="bi bi-exclamation-triangle"></i> @error</div>
+    }
+
+    <div class="toolbar">
+        <form asp-action="Index" method="get" class="filter" id="filterForm">
+            <span class="label"><i class="bi bi-calendar3"></i> Дата</span>
+            <input type="date" name="date" value="@dateStr"
+                   onchange="document.getElementById('filterForm').submit();" />
+            <input type="hidden" name="allTime" value="false" />
+        </form>
+
+        @if (Model.IsAllTime)
+        {
+            <a asp-action="Index" asp-route-date="@dateStr" asp-route-allTime="false" class="btn btn-toggle active">
+                <i class="bi bi-calendar-day"></i> Вернуться к дате
+            </a>
+        }
+        else
+        {
+            <a asp-action="Index" asp-route-date="@dateStr" asp-route-allTime="true" class="btn btn-toggle">
+                <i class="bi bi-bar-chart-line"></i> Общие итоги (всё время)
+            </a>
+        }
+    </div>
+
+    <div class="stats">
+        <div class="stat">
+            <div class="icon i-income"><i class="bi bi-arrow-down-circle"></i></div>
+            <div class="label">Заработано @Model.ScopeLabel</div>
+            <div class="value income">@DashboardViewModel.FormatMoney(Model.Income)</div>
+        </div>
+        <div class="stat">
+            <div class="icon i-expense"><i class="bi bi-arrow-up-circle"></i></div>
+            <div class="label">Потрачено @Model.ScopeLabel</div>
+            <div class="value expense">@DashboardViewModel.FormatMoney(Model.Expense)</div>
+        </div>
+        <div class="stat">
+            <div class="icon i-balance"><i class="bi bi-piggy-bank"></i></div>
+            <div class="label">Баланс @Model.ScopeLabel</div>
+            <div class="value balance">@DashboardViewModel.FormatMoney(Model.Balance)</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-head"><i class="bi bi-plus-circle"></i> Новая операция</div>
+        <div class="card-body">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="flash flash-error">
+                    <i class="bi bi-exclamation-circle"></i> Проверьте правильность заполнения полей.
+                </div>
+            }
+            <form asp-action="Add" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="allTime" value="@allTimeStr" />
+                <div class="add-grid">
+                    <div class="field">
+                        <label asp-for="NewTransaction.Date">Дата</label>
+                        <input asp-for="NewTransaction.Date" name="Date" type="date" class="input" />
+                    </div>
+                    <div class="field">
+                        <label asp-for="NewTransaction.Description">Описание</label>
+                        <input asp-for="NewTransaction.Description" name="Description" class="input"
+                               placeholder="Например: Продажа товара" />
+                    </div>
+                    <div class="field">
+                        <label asp-for="NewTransaction.Type">Тип</label>
+                        <select asp-for="NewTransaction.Type" name="Type" class="select">
+                            <option value="Income">Доход (+)</option>
+                            <option value="Expense">Расход (−)</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label asp-for="NewTransaction.Amount">Сумма, ₽</label>
+                        <input asp-for="NewTransaction.Amount" name="Amount" type="number" step="0.01"
+                               class="input" placeholder="0" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-check-lg"></i> Добавить
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card table-card">
+        <div class="card-head">
+            <i class="bi bi-list-ul"></i> История операций
+            <span style="margin-left:auto; font-weight:500; color:var(--muted); font-size:13px;">
+                @Model.Transactions.Count записей
+            </span>
+        </div>
+        <div class="table-wrap">
+            <table class="tx">
+                <thead>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Кто добавил</th>
+                        <th>Описание</th>
+                        <th>Тип</th>
+                        <th style="text-align:right;">Сумма</th>
+                        <th style="text-align:center;"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var t in Model.Transactions)
+                    {
+                        var isIncome = t.Type == TransactionType.Income;
+                        var author = Model.IsDirector ? t.UserName : "Вы";
+                        var ai = string.IsNullOrEmpty(author) ? "?" : author.Substring(0, 1).ToUpper();
+                        <tr>
+                            <td>@t.Date.ToString("dd.MM.yyyy")</td>
+                            <td>
+                                <span class="author"><span class="dot">@ai</span> @author</span>
+                            </td>
+                            <td>@t.Description</td>
+                            <td>
+                                @if (isIncome)
+                                {
+                                    <span class="pill pill-income"><i class="bi bi-arrow-down-right"></i> Доход</span>
+                                }
+                                else
+                                {
+                                    <span class="pill pill-expense"><i class="bi bi-arrow-up-right"></i> Расход</span>
+                                }
+                            </td>
+                            <td style="text-align:right;">
+                                <span class="amount @(isIncome ? "income" : "expense")">
+                                    @(isIncome ? "+" : "−") @DashboardViewModel.FormatMoney(t.Amount)
+                                </span>
+                            </td>
+                            <td style="text-align:center;">
+                                <form asp-action="Delete" method="post" class="d-inline"
+                                      onsubmit="return confirm('Удалить запись?');" style="display:inline;">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@t.Id" />
+                                    <input type="hidden" name="date" value="@dateStr" />
+                                    <input type="hidden" name="allTime" value="@allTimeStr" />
+                                    <button type="submit" class="icon-btn" title="Удалить">
+                                        <i class="bi bi-trash3"></i>
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            @if (Model.Transactions.Count == 0)
+            {
+                <div class="empty">
+                    <span class="emoji">🗒️</span>
+                    @(Model.IsAllTime ? "Записей пока нет — добавьте первую операцию выше" : "Нет операций на эту дату")
+                </div>
+            }
+        </div>
+    </div>
+</div>
