@@ -8,14 +8,6 @@
     "Transactions": []
   },
   {
-    "Id": 2,
-    "Name": "ivan",
-    "DisplayName": "ivan",
-    "Password": "1234",
-    "Role": "employee",
-    "Transactions": []
-  },
-  {
     "Id": 3,
     "Name": "азамат",
     "DisplayName": "азамат",
