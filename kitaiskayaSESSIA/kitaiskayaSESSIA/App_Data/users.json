@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "директор",
+    "DisplayName": "Директор",
+    "Password": "4321",
+    "Role": "director",
+    "Transactions": []
+  },
+  {
+    "Id": 2,
+    "Name": "ivan",
+    "DisplayName": "ivan",
+    "Password": "1234",
+    "Role": "employee",
+    "Transactions": []
+  },
+  {
+    "Id": 3,
+    "Name": "азамат",
+    "DisplayName": "азамат",
+    "Password": "1234",
+    "Role": "employee",
+    "Transactions": []
+  }
+]

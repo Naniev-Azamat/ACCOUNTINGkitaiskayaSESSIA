@@ -36,7 +36,7 @@ namespace kitaiskayaSESSIA.Services
 
             return new DashboardViewModel
             {
-                Transactions = (IReadOnlyList<System.Transactions.Transaction>)items,
+                Transactions = items,
                 Income = income,
                 Expense = expense,
                 IsAllTime = allTime,

@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yasam\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3C89C2-7A3C-4232-A148-CE6F1B01D431}|kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj|c:\\users\\yasam\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayasessia\\kitaiskayasessia\\kitaiskayasessia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3C89C2-7A3C-4232-A148-CE6F1B01D431}|kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj|solutionrelative:kitaiskayasessia\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3C89C2-7A3C-4232-A148-CE6F1B01D431}|kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj|c:\\users\\yasam\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayasessia\\kitaiskayasessia\\kitaiskayasessia\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3C89C2-7A3C-4232-A148-CE6F1B01D431}|kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj|solutionrelative:kitaiskayasessia\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3C89C2-7A3C-4232-A148-CE6F1B01D431}|kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj|c:\\users\\yasam\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayasessia\\kitaiskayasessia\\kitaiskayasessia\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC3C89C2-7A3C-4232-A148-CE6F1B01D431}|kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj|solutionrelative:kitaiskayasessia\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasam\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "kitaiskayaSESSIA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yasam\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "kitaiskayaSESSIA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-14T11:04:08.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasam\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "kitaiskayaSESSIA\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yasam\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "kitaiskayaSESSIA\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-14T10:58:04.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\yasam\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "kitaiskayaSESSIA\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\yasam\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "kitaiskayaSESSIA\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-14T10:57:34.419Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 2,
+    "UserId": 2,
+    "User": null,
+    "UserName": "ivan",
+    "Date": "2026-06-14",
+    "Description": "Produkty",
+    "Type": "Expense",
+    "Amount": 1200,
+    "CreatedAt": "2026-06-14T10:24:10.5640589Z"
+  },
+  {
+    "Id": 3,
+    "UserId": 2,
+    "User": null,
+    "UserName": "ivan",
+    "Date": "2026-06-14",
+    "Description": "Zarplata",
+    "Type": "Income",
+    "Amount": 5000,
+    "CreatedAt": "2026-06-14T10:24:35.2774158Z"
+  },
+  {
+    "Id": 4,
+    "UserId": 2,
+    "User": null,
+    "UserName": "ivan",
+    "Date": "2026-06-14",
+    "Description": "Produkty",
+    "Type": "Expense",
+    "Amount": 1200,
+    "CreatedAt": "2026-06-14T10:24:35.3102887Z"
+  },
+  {
+    "Id": 5,
+    "UserId": 3,
+    "User": null,
+    "UserName": "азамат",
+    "Date": "2026-06-14",
+    "Description": "мотик",
+    "Type": "Expense",
+    "Amount": 20000,
+    "CreatedAt": "2026-06-14T10:28:33.9829999Z"
+  },
+  {
+    "Id": 6,
+    "UserId": 3,
+    "User": null,
+    "UserName": "азамат",
+    "Date": "2026-06-14",
+    "Description": "прордажа",
+    "Type": "Income",
+    "Amount": 200000,
+    "CreatedAt": "2026-06-14T10:29:39.5691845Z"
+  }
+]
