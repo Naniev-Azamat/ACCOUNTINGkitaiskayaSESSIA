@@ -34,3 +34,40 @@ C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSI
 C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\App_Data\transactions.json
 C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\App_Data\users.json
 C:\Users\yasam\OneDrive\Рабочий стол\kitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\appsettings.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\App_Data\transactions.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\App_Data\users.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\kitaiskayaSESSIA.staticwebassets.runtime.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\kitaiskayaSESSIA.staticwebassets.endpoints.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\kitaiskayaSESSIA.exe
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\kitaiskayaSESSIA.deps.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\kitaiskayaSESSIA.runtimeconfig.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\kitaiskayaSESSIA.dll
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\bin\Debug\net8.0\kitaiskayaSESSIA.pdb
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.AssemblyInfoInputs.cache
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.AssemblyInfo.cs
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.csproj.CoreCompileInputs.cache
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.RazorAssemblyInfo.cache
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.RazorAssemblyInfo.cs
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.sourcelink.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\scopedcss\bundle\kitaiskayaSESSIA.styles.css
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\scopedcss\projectbundle\kitaiskayaSESSIA.bundle.scp.css
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets\msbuild.kitaiskayaSESSIA.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets\msbuild.kitaiskayaSESSIA.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets\msbuild.build.kitaiskayaSESSIA.props
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.kitaiskayaSESSIA.props
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.kitaiskayaSESSIA.props
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.dll
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\refint\kitaiskayaSESSIA.dll
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.pdb
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\kitaiskayaSESSIA.genruntimeconfig.cache
+C:\Users\stud\Source\Repos\ACCOUNTINGkitaiskayaSESSIA\kitaiskayaSESSIA\kitaiskayaSESSIA\obj\Debug\net8.0\ref\kitaiskayaSESSIA.dll

@@ -20,5 +20,27 @@
     "Type": "Income",
     "Amount": 23655,
     "CreatedAt": "2026-06-14T11:42:12.7844158Z"
+  },
+  {
+    "Id": 9,
+    "UserId": 3,
+    "User": null,
+    "UserName": "азамат",
+    "Date": "2026-06-19",
+    "Description": "ыав",
+    "Type": "Income",
+    "Amount": 2545,
+    "CreatedAt": "2026-06-19T08:03:34.5694172Z"
+  },
+  {
+    "Id": 10,
+    "UserId": 4,
+    "User": null,
+    "UserName": "давид",
+    "Date": "2026-06-19",
+    "Description": "ваи",
+    "Type": "Expense",
+    "Amount": 636,
+    "CreatedAt": "2026-06-19T08:03:51.3342716Z"
   }
 ]

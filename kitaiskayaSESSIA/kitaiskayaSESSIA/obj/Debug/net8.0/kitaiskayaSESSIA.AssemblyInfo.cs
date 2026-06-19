@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kitaiskayaSESSIA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6be6133276f8695cd0c2f500dfe9492cbbdf2de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cd1b76ea2fba24bd7f52440d2760bc24df98cfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("kitaiskayaSESSIA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kitaiskayaSESSIA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

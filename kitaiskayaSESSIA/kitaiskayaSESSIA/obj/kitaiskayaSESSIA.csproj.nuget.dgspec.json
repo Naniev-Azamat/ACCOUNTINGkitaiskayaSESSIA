@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yasam\\OneDrive\\Рабочий стол\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj": {}
+    "C:\\Users\\stud\\source\\repos\\ACCOUNTINGkitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yasam\\OneDrive\\Рабочий стол\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj": {
+    "C:\\Users\\stud\\source\\repos\\ACCOUNTINGkitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yasam\\OneDrive\\Рабочий стол\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj",
+        "projectUniqueName": "C:\\Users\\stud\\source\\repos\\ACCOUNTINGkitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj",
         "projectName": "kitaiskayaSESSIA",
-        "projectPath": "C:\\Users\\yasam\\OneDrive\\Рабочий стол\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj",
-        "packagesPath": "C:\\Users\\yasam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yasam\\OneDrive\\Рабочий стол\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\obj\\",
+        "projectPath": "C:\\Users\\stud\\source\\repos\\ACCOUNTINGkitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA.csproj",
+        "packagesPath": "C:\\Users\\stud\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stud\\Source\\Repos\\ACCOUNTINGkitaiskayaSESSIA\\kitaiskayaSESSIA\\kitaiskayaSESSIA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yasam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stud\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -46,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -70,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

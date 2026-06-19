@@ -14,5 +14,13 @@
     "Password": "1234",
     "Role": "employee",
     "Transactions": []
+  },
+  {
+    "Id": 4,
+    "Name": "давид",
+    "DisplayName": "давид",
+    "Password": "1234",
+    "Role": "employee",
+    "Transactions": []
   }
 ]
